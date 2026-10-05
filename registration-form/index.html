@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h2>Registration Form</h2>
+
+    <form>
+
+      <label for="name">Name</label>
+      <input
+        id="name"
+        type="text"
+        name="name"
+        placeholder="Full Name"
+      />
+
+      <label for="email">Email</label>
+      <input
+        id="email"
+        type="email"
+        name="email"
+        placeholder="Email"
+      />
+
+      <label for="phonenumber">Phone Number</label>
+      <input
+        id="phonenumber"
+        type="tel"
+        name="phonenumber"
+        placeholder="Phone Number"
+      />
+
+      <label for="dateofbirth">Date of Birth</label>
+      <input
+        id="dateofbirth"
+        type="date"
+        name="dateofbirth"
+      />
+
+      <label>Gender</label>
+
+      <div class="gender-options">
+
+        <div class="gender-item">
+          <input
+            id="male"
+            type="radio"
+            name="gender"
+            value="male"
+          />
+          <label for="male">Male</label>
+        </div>
+
+        <div class="gender-item">
+          <input
+            id="female"
+            type="radio"
+            name="gender"
+            value="female"
+          />
+          <label for="female">Female</label>
+        </div>
+
+        <div class="gender-item">
+          <input
+            id="transgender"
+            type="radio"
+            name="gender"
+            value="transgender"
+          />
+          <label for="transgender">Transgender</label>
+        </div>
+
+      </div>
+
+      <button type="submit">Register</button>
+
+    </form>
+
+  </div>
+
+</body>
+
+</html>

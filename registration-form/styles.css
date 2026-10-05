@@ -1,0 +1,49 @@
+body {
+  padding: 25px;
+}
+
+.container {
+  width: 500px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin: 10px 0;
+  width: 50%;
+  padding: 8px;
+}
+
+/* Gender section */
+.gender-options {
+  display: flex;
+  gap: 20px;
+  margin: 10px 0;
+}
+
+/* Individual radio + label */
+.gender-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Override the common input styling */
+.gender-item input[type="radio"] {
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.gender-item label {
+  margin: 0;
+}
+
+button {
+  width: 120px;
+  padding: 8px;
+  margin-top: 15px;
+}
